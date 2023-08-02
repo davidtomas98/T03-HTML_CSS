@@ -1,0 +1,11 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #c9e4fc; /* Color de fondo del cuerpo */
+    margin: 5% 30%; /* Márgenes superior e inferior: 5%, márgenes izquierdo y derecho: 30% */
+    font-family: "Arial", sans-serif; /* Tipo de fuente del texto del cuerpo */
+}
+
+/* Estilos para los encabezados h1 y h2 */
+h1, h2 {
+    font-family: "Arial", sans-serif, cursive; /* Tipo de fuente para los encabezados */
+}

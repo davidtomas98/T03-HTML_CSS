@@ -1,0 +1,77 @@
+/* Estilos para todos los elementos */
+* {
+  font-family: LucidaSansUnicode, Helvetica, sans-serif;
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+  color: #60963a; /* Color del texto en verde */
+  letter-spacing: 0.2em; /* Espaciado entre letras de 0.2em */
+  text-align: center; /* Alineación del texto centrada */
+}
+
+/* Estilos para el contenido dentro del encabezado h1 */
+h1 > span {
+  color: #d1ad84; /* Color del texto dentro de span en beige */
+}
+
+/* Estilos para el contenedor de secciones */
+section {
+  display: flex; /* Mostrar elementos como flex */
+  flex-direction: row; /* Dirección de los elementos en fila */
+}
+
+/* Estilos para los elementos de la lista */
+li {
+  background-color: #b6d172; /* Color de fondo en verde claro */
+  margin: 1em 0; /* Márgenes de 1em arriba y abajo */
+  text-align: center; /* Alineación del texto centrada */
+  padding: 0.2em 2em; /* Espaciado interno de 0.2em vertical y 2em horizontal */
+  list-style: none; /* Quitar viñetas de la lista */
+}
+
+/* Estilos para los enlaces dentro de los elementos de la lista */
+li > a {
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  color: #000000; /* Color del texto de los enlaces en negro */
+}
+
+/* Estilos al pasar el cursor sobre los elementos de la lista */
+li:hover {
+  background-color: #f0d32d76; /* Color de fondo en amarillo claro con opacidad */
+}
+
+/* Estilos para el elemento activo de la lista */
+.active {
+  background-color: #d1ad84; /* Color de fondo del elemento activo en beige */
+}
+
+/* Estilos al pasar el cursor sobre el elemento activo de la lista */
+.active:hover {
+  background-color: #d1ad84; /* Color de fondo del elemento activo al pasar el cursor en beige */
+}
+
+/* Estilos para el elemento article */
+article {
+  border: 1px solid rgb(155, 145, 145); /* Borde de 1px de color gris */
+  padding: 1em; /* Espaciado interno de 1em */
+  margin: 1em; /* Márgenes externos de 1em */
+}
+
+/* Estilos para el encabezado h2 dentro del artículo */
+article > h2 {
+  color: #75b955; /* Color del texto del encabezado h2 en verde */
+}
+
+/* Estilos para el encabezado h3 */
+h3 {
+  color:  #d1ad84 ; /* Color del texto del encabezado h3 en beige */
+}
+
+/* Estilos para la línea horizontal */
+hr {
+  height: 0.5px; /* Altura de la línea horizontal de 0.5px */
+  background-color: #75b955; /* Color de la línea en verde */
+  margin: -20px 0 0 0; /* Márgenes negativos para posicionar la línea encima del contenido */
+  border-color: transparent; /* Color transparente del borde de la línea */
+}

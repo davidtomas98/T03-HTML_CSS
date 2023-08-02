@@ -1,0 +1,41 @@
+/* Estilos globales para todos los elementos */
+* {
+  font-family: LucidaSansUnicode, Helvetica, sans-serif;
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+  color: #60963a; /* Color del texto en verde */
+  letter-spacing: 0.2em; /* Espaciado entre las letras */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para el contenido dentro del h1 */
+h1 > span {
+  color:  #cf9f66 ; /* Color del texto en tono amarillo */
+}
+
+/* Estilos para el elemento main */
+main {
+  border: 1px solid rgb(144, 144, 144); /* Borde de 1px de color gris */
+  padding: 1em; /* Espaciado interno de 1em */
+  margin: 1em; /* Márgenes externos de 1em */
+}
+
+/* Estilos para el encabezado h2 dentro del elemento main */
+main > h2 {
+  color: #74b854; /* Color del texto en verde */
+}
+
+/* Estilos para el encabezado h3 */
+h3 {
+    color:  #cf9f66 ; /* Color del texto en tono amarillo */
+}
+
+/* Estilos para la línea horizontal */
+hr {
+    height: 0.5px; /* Altura de la línea */
+    background-color: #74b855; /* Color de la línea en verde */
+    margin: -20px 0 0 0; /* Márgenes negativos para alinear correctamente */
+    border-color: transparent; /* Color del borde transparente */
+}

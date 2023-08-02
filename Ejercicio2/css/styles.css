@@ -1,0 +1,16 @@
+/* Estilos para el fondo del cuerpo del documento */
+body {
+    background-color: #fbfcfe;
+}
+
+/* Estilos para los títulos de nivel 1 (h1) */
+h1 {
+    font-family: "Arial", sans-serif; /* Fuente del texto */
+    font-size: 3em; /* Tamaño del texto */
+    font-weight: 600; /* Grosor o peso de la fuente */
+}
+
+/* Estilos para el texto en negrita (strong) */
+strong {
+    color: #000000; /* Color del texto en negrita */
+}

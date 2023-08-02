@@ -1,0 +1,36 @@
+/* Aplica la fuente Arial, Helvetica o una fuente genérica sin-serif a todos los elementos */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Establece el color de fondo del cuerpo del documento en un tono crema (#fff9ef) */
+body {
+    background-color: #f3ebde;
+}
+
+/* Establece el color de fondo de los encabezados h1 en un tono dorado (#fedb8f) */
+h1 {
+    background-color: #f9d382;
+}
+
+/* Establece el color del texto de los encabezados h2 en un tono azul claro (#74aaca) y agrega un estilo de texto en cursiva */
+h2 {
+    color: #699dbb;
+    font-style: italic;
+}
+
+/* Establece el color del texto de los elementos <span> dentro de párrafos en un tono azul claro (#74aaca) y agrega un estilo de texto en cursiva */
+p > span {
+    color: #6da7c9;
+    font-style: italic;
+}
+
+/* Establece el color del texto de los encabezados h3 en un tono gris azulado (#698290) */
+h3 {
+    color: #5f7684;
+}
+
+/* Elimina las viñetas de las listas no ordenadas (ul) */
+ul {
+    list-style: none;
+}

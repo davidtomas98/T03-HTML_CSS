@@ -1,0 +1,4 @@
+ /* Estilo para las listas no ordenadas (ul) */
+ ul {
+    list-style: none; /* Elimina las viñetas en las listas */
+}

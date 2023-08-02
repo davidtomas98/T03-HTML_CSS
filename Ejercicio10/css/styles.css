@@ -1,0 +1,112 @@
+/* Estilos para todos los elementos del documento */
+* {
+  font-family: LucidaSansUnicode, Helvetica, sans-serif; /* Tipo de fuente predeterminado */
+}
+
+/* Estilos para el cuerpo del documento */
+body {
+  background-color: lightgray; /* Color de fondo del cuerpo */
+}
+
+/* Estilos para el elemento principal */
+main {
+  background-color: white; /* Color de fondo del elemento principal */
+  border-radius: 1em; /* Bordes redondeados de 1em */
+  margin: 2em 29em; /* Márgenes superior e inferior: 2em, márgenes izquierdo y derecho: 29em */
+}
+
+/* Estilos para las imágenes */
+img {
+  display: block; /* Hace que la imagen sea un bloque y respete el ancho y alto establecido */
+  padding: 2em 0 0 0; /* Espaciado interno superior: 2em */
+  margin: 0 auto; /* Centra horizontalmente la imagen */
+  width: 90%; /* Ancho de la imagen: 90% */
+  height: 15em; /* Altura de la imagen: 15em */
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+  color: #60963a; /* Color del texto del encabezado h1 en verde */
+  letter-spacing: 0.2em; /* Espaciado entre letras de 0.2em */
+  text-align: center; /* Alineación del texto centrada */
+}
+
+/* Estilos para el span dentro del encabezado h1 */
+h1 > span {
+  color: #d1ad84; /* Color del texto del span en color marrón */
+}
+
+/* Estilos para las secciones */
+section {
+  display: flex; /* Uso de flexbox para el diseño de las secciones */
+  flex-direction: row; /* Dirección de los elementos hijos: horizontal */
+}
+
+/* Estilos para los elementos de lista */
+li {
+  background: linear-gradient(to bottom, white, #c8e187); /* Difuminado de colores en el fondo */
+  border: 1px solid #ccc; /* Borde de 1px de color gris */
+  margin: 1em 0; /* Márgenes superior e inferior: 1em, márgenes izquierdo y derecho: 0 */
+  text-align: center; /* Alineación del texto centrada */
+  padding: 0.2em 2em; /* Espaciado interno: 0.2em arriba y abajo, 2em izquierda y derecha */
+  list-style: none; /* Elimina el estilo de viñetas de las listas */
+}
+
+/* Estilos para los enlaces dentro de los elementos de lista */
+li > a {
+  text-decoration: none; /* Sin subrayado para los enlaces */
+  color: #62983c; /* Color del texto del enlace en verde */
+}
+
+/* Estilos para el efecto hover en los elementos de lista */
+li:hover {
+  background: linear-gradient(to bottom, white, #c1da8476); /* Difuminado de colores en el fondo con transparencia */
+}
+
+/* Estilos para el elemento activo */
+.active {
+  background: linear-gradient(to bottom, white, #e3c8a9); /* Difuminado de colores en el fondo del elemento activo */
+}
+
+/* Estilos para el efecto hover en el elemento activo */
+.active:hover {
+  background: linear-gradient(to bottom, white, #e3c8a9); /* Difuminado de colores en el fondo del elemento activo con transparencia */
+}
+
+/* Estilos para el elemento article */
+article {
+  border: 1px solid rgb(144, 144, 144); /* Borde de 1px de color gris */
+  padding: 1em; /* Espaciado interno de 1em */
+  margin: 1em; /* Márgenes externos de 1em */
+  background: linear-gradient(#e7e7e7, #ffffff, #e7e7e7); /* Difuminado de colores en el fondo */
+}
+
+/* Estilos para el encabezado h2 dentro del artículo */
+article > h2 {
+  color: #75b955; /* Color del texto del encabezado h2 en verde */
+}
+
+/* Estilos para el encabezado h3 */
+h3 {
+  color: #d1ad84; /* Color del texto del encabezado h3 en marrón */
+}
+
+/* Estilos para la línea horizontal */
+hr {
+  height: 0.5px; /* Altura de la línea horizontal: 0.5px */
+  background-color: #75b955; /* Color de la línea horizontal en verde */
+  margin: -20px 0 0 0; /* Márgenes: -20px arriba, 0 en los lados y abajo */
+  border-color: transparent; /* Color del borde transparente */
+}
+
+/* Estilos para el pie de página */
+footer {
+  color: lightgray; /* Color del texto del pie de página en gris claro */
+  margin: 0 3em 0 15em; /* Márgenes: 0 arriba y abajo, 3em izquierda y derecha, 15em a la izquierda */
+  padding: 0 0 1em 0; /* Espaciado interno: 0 arriba y abajo, 1em a la izquierda y derecha */
+}
+
+/* Estilos para el span dentro del pie de página */
+footer > span {
+  text-decoration-line: underline; /* Subrayado para el texto del span */
+}
